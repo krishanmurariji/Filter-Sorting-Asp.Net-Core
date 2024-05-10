@@ -2,14 +2,13 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/krishanmurariji/KrishanMurari_portfolio.svg?style=social&label=Stars)](https://github.com/krishanmurariji/KrishanMurari_portfolio)
 [![GitHub Forks](https://img.shields.io/github/forks/krishanmurariji/KrishanMurari_portfolio.svg?style=social&label=Forks)](https://github.com/krishanmurariji/KrishanMurari_portfolio)
-<div align="center">
-![Screenshot 2024-05-10 151057](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/9caea861-6eef-4499-b30c-25a1542ec463)
-![Screenshot 2024-05-10 151112](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/93400f44-8618-42e7-8e41-791300234825)
-![Screenshot 2024-05-10 151127](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/5d1c40ba-d523-4507-b43c-48f41aa620f5)
-![Screenshot 2024-05-10 151146](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/2ee5d8a7-e985-4d15-b3c7-05930170ca1e)
-![Screenshot 2024-05-10 151206](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/ef6b1103-2786-48aa-84a5-16786475be6a)
 
-</div>
+[Screenshot 2024-05-10 151057](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/9caea861-6eef-4499-b30c-25a1542ec463)
+[Screenshot 2024-05-10 151112](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/93400f44-8618-42e7-8e41-791300234825)
+[Screenshot 2024-05-10 151127](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/5d1c40ba-d523-4507-b43c-48f41aa620f5)
+[Screenshot 2024-05-10 151146](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/2ee5d8a7-e985-4d15-b3c7-05930170ca1e)
+[Screenshot 2024-05-10 151206](https://github.com/krishanmurariji/Filter-Sorting-Asp.Net-Core/assets/144571603/ef6b1103-2786-48aa-84a5-16786475be6a)
+
 
 ## 📖 Description
 
