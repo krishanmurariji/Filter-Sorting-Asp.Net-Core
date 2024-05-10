@@ -3,9 +3,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/KrishanMurari_portfolio/your-repo.svg?style=social&label=Stars)](https://github.com/krishanmurariji/KrishanMurari_portfolio)
 
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/your-username/your-repo/main/awesome-banner.png" alt="Awesome Project Banner" width="800">
-</div>
+
 
 ## 📖 Description
 
