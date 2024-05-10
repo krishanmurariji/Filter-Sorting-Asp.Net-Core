@@ -1,0 +1,93 @@
+
+<form class="form-horizontal" autocomplete="off" #editUserForm="ngForm" (ngSubmit)="save(editUserForm)">
+    <abp-modal-header [title]="editMode ? ('Update List' | localize) : ('Create List' | localize)" (onCloseClick)="bsModalRef.hide()"></abp-modal-header>
+    <div class="modal-body">
+        <tabset>
+            <tab [heading]="'User Details' | localize" class="pt-3 px-2">
+
+                <div class="form-group row required">
+                    <label class="col-md-3 col-form-label" for="motherName">
+                        {{ "Mother Name" | localize }}
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="motherName" id="motherName" required minlength="2"
+                            maxlength="32" [(ngModel)]="listUser.motherName" #motherNameModel="ngModel" #motherNameEl />
+                        <abp-validation-summary [control]="motherNameModel"
+                            [controlEl]="motherNameEl"></abp-validation-summary>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group row required">
+                    <label class="col-md-3 col-form-label" for="fatherName">
+                        {{ "Father Name" | localize }}
+                    </label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" name="fatherName" id="fatherName" required minlength="2"
+                            maxlength="32" [(ngModel)]="listUser.fatherName" #fatherNameModel="ngModel" #fatherNameEl />
+                        <abp-validation-summary [control]="fatherNameModel"
+                            [controlEl]="fatherNameEl"></abp-validation-summary>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group row required">
+                    <label class="col-md-3 col-form-label" for="age">
+                        {{ "Age" | localize }}
+                    </label>
+                    <div class="col-md-9">
+                        <input type="number" class="form-control" name="age" id="age" required minlength="2"
+                            maxlength="32" [(ngModel)]="listUser.age" #ageModel="ngModel" #ageEl />
+                        <abp-validation-summary [control]="ageModel"
+                            [controlEl]="ageEl"></abp-validation-summary>
+                    </div>
+                </div>
+                <br>
+
+                <div class="form-group row required">
+                    <label class="col-md-3 col-form-label" for="resource.optionSetId">{{ "User" | localize }}</label>
+                    <div class="col-md-9">
+                        <select class="form-control" id="resource.optionSetId" name="resource.optionSetId"   [(ngModel)]="listUser.userId" #userIdModel="ngModel" #userIdEl >
+                            <option value="undefined">{{ "Select User" | localize }}</option>
+                            <option *ngFor="let u of usernamelist" value="{{ u.value }}">
+                                {{ u.name }}
+                      
+                        </select>
+                        <abp-validation-summary [control]="userIdModel"
+                            [controlEl]="userIdEl"></abp-validation-summary>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group row required">
+                    <label class="col-md-3 col-form-label" for="resource.optionSetId">{{ " Gender " | localize }}</label>
+                    <div class="col-md-9">
+                        <select class="form-control" id="resource.optionSetId" name="resource.optionSetId"   [(ngModel)]="listUser.gender" #genderModel="ngModel" #genderEl >
+                            <option value="undefined">{{ "Select gender" | localize }}</option>
+                            <option *ngFor="let u of genderlist" value="{{ u.value }}">
+                                {{ u.name }}
+                            </option>
+                        </select>
+                        <abp-validation-summary [control]="genderModel"
+                            [controlEl]="genderEl"></abp-validation-summary>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group row required">
+                    <label class="col-md-3 col-form-label" for="resource.optionSetId">{{ " Marital Status" | localize }}</label>
+                    <div class="col-md-9">
+                        <select class="form-control" id="resource.optionSetId" name="resource.optionSetId"   [(ngModel)]="listUser.maritalStatus" #maritalStatusModel="ngModel" #maritalStatusEl >
+                            <option value="undefined">{{ "Select Marital Status" | localize }}</option>
+                            <option *ngFor="let u of maritalstatuslist" value="{{ u.value }}">
+                                {{ u.name }}
+                            </option>
+                        </select>
+                        <abp-validation-summary [control]="maritalStatusModel"
+                            [controlEl]="maritalStatusEl"></abp-validation-summary>
+                    </div>
+                </div>
+                <br>
+
+            </tab>
+        </tabset>
+    </div>
+    <abp-modal-footer [cancelDisabled]="saving" [saveDisabled]="!editUserForm.form.valid || saving"
+        (onCancelClick)="bsModalRef.hide()"></abp-modal-footer>
+</form>
