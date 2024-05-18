@@ -33,9 +33,6 @@ To get started with this project, follow these simple steps:
 
 Contributions are always welcome! Please read our [Contributing Guidelines](.github/CONTRIBUTING.md) to learn how to contribute to this project.
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
