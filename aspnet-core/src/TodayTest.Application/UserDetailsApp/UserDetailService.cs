@@ -37,11 +37,6 @@ namespace TodayTest.UserDetailsApp
             return new List<UserDetailsDto>(ObjectMapper.Map<List<UserDetailsDto>>(temp));  
         }
 
-
-
-
-
-
         public async Task<List<NameValueDto<long>>> GetNames()
         {
             var users = await _userRepository.GetAll().Select(user => new NameValueDto<long>
